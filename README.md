@@ -29,7 +29,7 @@ Ensure that you have already installed the `three` and `three-nebula` npm packag
 
 ## Documentation
 
-For detailed documentation on how to use the `three-nebula` module, refer to the official [three-nebula GitHub repository](https://github.com/bubblin/The-Book-of-Shaders).
+For detailed documentation on how to use the `three-nebula` module, refer to the official [three-nebula GitHub repository](https://github.com/creativelifeform/three-nebula).
 
 ## License
 
@@ -41,13 +41,13 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 
 ## Credits
 
-The `three-nebula-types` package is maintained by [Your Name](https://github.com/your-username).
+The `three-nebula-types` package is maintained by [MooNRakeR](https://github.com/moonraker22).
 
-Special thanks to the creators of the [three-nebula](https://github.com/bubblin/The-Book-of-Shaders) module for providing the original library.
+Special thanks to the creators of the [three-nebula](https://github.com/creativelifeform/three-nebula) module for providing the original library.
 
 ## Support
 
-If you find this package helpful, consider supporting the project by starring the repository on GitHub or [donating](https://github.com/sponsors/your-username).
+If you find this package helpful, consider supporting the project by starring the repository on GitHub.
 
 Your support is greatly appreciated!
 
