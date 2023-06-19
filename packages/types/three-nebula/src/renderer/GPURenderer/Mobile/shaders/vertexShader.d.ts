@@ -1,2 +1,2 @@
-type VertexShader = () => string
-export const vertexShader: VertexShader
+import { VertexShader } from '../../Desktop/shaders/vertexShader';
+export const vertexShader: VertexShader;

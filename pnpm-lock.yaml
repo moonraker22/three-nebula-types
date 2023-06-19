@@ -6,21 +6,24 @@ settings:
 
 importers:
 
-  apps/nebulaTest/test-app:
+  apps/testing:
     dependencies:
       '@types/three':
-        specifier: ^0.152.1
+        specifier: 0.152.1
         version: 0.152.1
       three:
-        specifier: ^0.153.0
-        version: 0.153.0
+        specifier: 0.152.1
+        version: 0.152.1
       three-nebula:
         specifier: ^10.0.3
-        version: 10.0.3(three@0.153.0)
-    devDependencies:
+        version: 10.0.3(three@0.152.1)
       three-nebula-types:
-        specifier: workspace:*
-        version: link:../../../packages/three-nebula
+        specifier: ^0.0.3
+        version: 0.0.3
+    devDependencies:
+      '@babel/runtime':
+        specifier: ^7.22.5
+        version: 7.22.5
       typescript:
         specifier: ^5.0.2
         version: 5.1.3
@@ -28,9 +31,14 @@ importers:
         specifier: ^4.3.9
         version: 4.3.9
 
-  packages/three-nebula: {}
-
 packages:
+
+  /@babel/runtime@7.22.5:
+    resolution: {integrity: sha512-ecjvYlnAaZ/KVneE/OdKYBYfgXV3Ptu6zQWmgEF7vwKhQnvVS6bjMD2XYgj+SNvQ1GfK/pjgokfPkC/2CO8CuA==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.13.11
+    dev: true
 
   /@esbuild/android-arm64@0.17.19:
     resolution: {integrity: sha512-KBMWvEZooR7+kzY0BtbTQn0OAYY7CsiydT63pVEaPtVYF0hXbUaOyZog37DKxK7NF3XacBJOpYT4adIJh+avxA==}
@@ -325,6 +333,10 @@ packages:
     resolution: {integrity: sha512-choctRBIV9EMT9WGAZHn3V7t0Z2pMQyl0EZE6pFc/6ml3ssw7Dlf/oAOvFwjm1HVsqfQN8GfeFyJ+d8tRzqueQ==}
     dev: false
 
+  /regenerator-runtime@0.13.11:
+    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
+    dev: true
+
   /rollup@3.25.0:
     resolution: {integrity: sha512-FnJkNRst2jEZGw7f+v4hFo6UTzpDKrAKcHZWcEfm5/GJQ5CK7wgb4moNLNAe7npKUev7yQn1AY/YbZRIxOv6Qg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
@@ -338,19 +350,23 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /three-nebula@10.0.3(three@0.153.0):
+  /three-nebula-types@0.0.3:
+    resolution: {integrity: sha512-TaGXy3j3CS8ZiCl++ncGhvKtgXgQJ0QFdN/JsxHjayCpRho0mShr+KSwg5mAcQvIPudvY3zDdrUGK0FdctLNGw==}
+    dev: false
+
+  /three-nebula@10.0.3(three@0.152.1):
     resolution: {integrity: sha512-cX0UVkCGKx1r36z/yo26HAjsMGa3NcSvGZlODTLo6lfNikpK7oYXgq5r4yVrjaGjhpeKnFalNTI8LsHiZ8KlYw==}
     peerDependencies:
       three: '>=0.122.0 <1.0.0'
     dependencies:
       lodash: 4.17.21
       potpack: 1.0.2
-      three: 0.153.0
+      three: 0.152.1
       uuid: 3.4.0
     dev: false
 
-  /three@0.153.0:
-    resolution: {integrity: sha512-OCP2/uQR6GcDpSLnJt/3a4mdS0kNWcbfUXIwLoEMgLzEUIVIYsSDwskpmOii/AkDM+BBwrl6+CKgrjX9+E2aWg==}
+  /three@0.152.1:
+    resolution: {integrity: sha512-6812YuxSnsCQ3DgI27jtuwIW0cgn/ooVshPIcKpuPQ2kygeDTOQtRkYffl4E1IcQElEyHbPjyQznE2jti7fXoA==}
     dev: false
 
   /typescript@5.1.3:

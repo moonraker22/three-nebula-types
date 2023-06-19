@@ -1,5 +1,6 @@
-import BaseRenderer from '../BaseRenderer'
-import { DEFAULT_RENDERER_OPTIONS } from './common/constants'
+import { Three } from '../../core/three';
+import BaseRenderer from '../BaseRenderer';
+import { DEFAULT_RENDERER_OPTIONS } from './common/constants';
 /**
  * Performant particle renderer that uses THREE.Points to propagate particle (postiion, rgba etc.,) properties to
  * vertices in a ParticleBufferGeometry.
@@ -12,14 +13,11 @@ import { DEFAULT_RENDERER_OPTIONS } from './common/constants'
  * @author rohan-deshpande <rohan@creativelifeform.com>
  */
 export default class GPURenderer extends BaseRenderer {
-  constructor(
-    container: Container,
-    THREE: Three,
-    options?: typeof DEFAULT_RENDERER_OPTIONS | object
-  )
-  isFloatingPointTextureSupported(): boolean
+    constructor(container: Container, THREE: Three, options?: typeof DEFAULT_RENDERER_OPTIONS | object);
+    isFloatingPointTextureSupported(): boolean;
 }
 
-type Three = typeof import('three')
+export type Container = THREE.Scene;
 
-type Container = THREE.Scene
+export * from './Desktop';
+export * from './Mobile';

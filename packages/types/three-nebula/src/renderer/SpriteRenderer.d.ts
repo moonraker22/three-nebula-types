@@ -1,20 +1,13 @@
-import type { Sprite } from 'three'
-import { Particle } from '../core'
-import MeshRenderer from './MeshRenderer'
-/**
- * @requires THREE - { Mesh, BoxGeometry, MeshLambertMaterial, Sprite, SpriteMaterial }
- */
+import { Particle } from '../core';
+import { Three } from '../core/three';
+import MeshRenderer from './MeshRenderer';
+
 export default class SpriteRenderer extends MeshRenderer {
-  constructor(container: Scene, THREE: Three)
-  /**
-   * @desc The class type.
-   * @type {string}
-   */
-  type: string
-  _body: Sprite
-  scale(particle: Particle): void
+    constructor(container: THREE.Scene, THREE: Three);
+    /**
+     * @description The class type.
+     */
+    type: string;
+    _body: THREE.Sprite;
+    scale(particle: Particle): void;
 }
-
-type Three = typeof import('three')
-
-type Scene = THREE.Scene

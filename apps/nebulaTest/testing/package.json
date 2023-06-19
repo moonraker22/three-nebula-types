@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.22.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@types/three": "^0.152.1",
+    "three": "^0.153.0",
+    "three-nebula": "^10.0.3",
+    "three-nebula-types": "^0.0.3"
+  }
+}

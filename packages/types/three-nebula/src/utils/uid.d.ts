@@ -1,4 +1,4 @@
-interface IUID {
-  (): string
+export interface UID {
+    (): string;
 }
-export default IUID
+export default UID;

@@ -1,18 +1,18 @@
-import { Particle, Pool } from '../core'
-import BaseRenderer from './BaseRenderer'
+import { Particle, Pool } from '../core';
+import BaseRenderer from './BaseRenderer';
 
 export default class CustomRenderer extends BaseRenderer {
-  constructor()
+    constructor();
 
-  targetPool: Pool
+    targetPool: Pool;
 
-  materialPool: Pool
+    materialPool: Pool;
 
-  onSystemUpdate(): void
+    onSystemUpdate(): void;
 
-  onParticleCreated(particle: Particle): void
+    onParticleCreated(particle: Particle): void;
 
-  onParticleUpdate(particle: Particle): void
+    onParticleUpdate(particle: Particle): void;
 
-  onParticleDead(particle: Particle): void
+    onParticleDead(particle: Particle): void;
 }

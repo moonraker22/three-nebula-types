@@ -1,1 +1,1 @@
-export const DATA_TEXTURE_SIZE: 256
+export const DATA_TEXTURE_SIZE: 256;
