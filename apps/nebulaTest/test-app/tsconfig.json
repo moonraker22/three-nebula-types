@@ -19,9 +19,10 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "typeRoots": ["node_modules/@types", "../../../packages/three-nebula/"]
+    "typeRoots": ["node_modules/@types", "node_modules/three-nebula-types/"]
+    // "typeRoots": ["node_modules/@types", "../../../packages/three-nebula/"]
   },
-  "types": "../../../packages/three-nebula/index.d.ts",
+  // "types": "../../../packages/three-nebula/index.d.ts",
 
   "include": ["src"]
 }

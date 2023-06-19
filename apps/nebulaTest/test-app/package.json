@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "three-nebula-types": "workspace:*",
     "typescript": "^5.0.2",
+    "@types/three": "^0.152.1",
+    "three-nebula-types": "^0.0.3",
     "vite": "^4.3.9"
   },
   "dependencies": {
-    "@types/three": "^0.152.1",
     "three": "^0.153.0",
     "three-nebula": "^10.0.3"
   }
