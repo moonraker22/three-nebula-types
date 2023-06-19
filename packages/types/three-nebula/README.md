@@ -28,7 +28,7 @@ Ensure that you have already installed the `three` and `three-nebula` npm packag
 
 ## Documentation
 
-For detailed documentation on how to use the `three-nebula` module, refer to the official [three-nebula GitHub repository](https://github.com/bubblin/The-Book-of-Shaders).
+For detailed documentation on how to use the `three-nebula` module, refer to the official [three-nebula GitHub repository](https://github.com/creativelifeform/three-nebula).
 
 ## License
 
@@ -36,17 +36,17 @@ This package is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contributing
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the GitHub repository: [three-nebula-types](https://github.com/your-username/three-nebula-types).
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the GitHub repository: [three-nebula-types](https://github.com/moonraker22/three-nebula-types).
 
 ## Credits
 
-The `three-nebula-types` package is maintained by [Your Name](https://github.com/your-username).
+The `three-nebula-types` package is maintained by [MooNRakeR](https://github.com/moonraker22).
 
-Special thanks to the creators of the [three-nebula](https://github.com/bubblin/The-Book-of-Shaders) module for providing the original library.
+Special thanks to the creators of the [three-nebula](https://github.com/creativelifeform/three-nebula) module for providing the original library.
 
 ## Support
 
-If you find this package helpful, consider supporting the project by starring the repository on GitHub or [donating](https://github.com/sponsors/your-username).
+If you find this package helpful, consider supporting the project by starring the repository on GitHub.
 
 Your support is greatly appreciated!
 
@@ -57,5 +57,5 @@ Your support is greatly appreciated!
 
 ## Changelog
 
-- **1.0.0** (YYYY-MM-DD)
+- **0.0.1** (2023-06-16)
   - Initial release.
