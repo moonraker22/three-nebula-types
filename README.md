@@ -58,5 +58,5 @@ Your support is greatly appreciated!
 
 ## Changelog
 
-- **1.0.0** (YYYY-MM-DD)
-  - Initial release.
+- **0.0.1** (2023-6-16)
+  - Initial alpha release.
