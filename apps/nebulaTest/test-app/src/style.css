@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+canvas {
+  width: 100vh;
+  height: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overscroll-behavior-y: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  background-color: #000;
+}

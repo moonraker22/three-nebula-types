@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es6"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "baseUrl": "../",
+    // "typeRoots": ["../"],
+    "types": [],
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./", "../../node_modules/@types"]
+  },
+  "types": ["./index.d.ts"],
+  "files": [
+    // "indexGenerated.d.ts",
+    "./index.d.ts",
+    "./tests/getThreeApp.ts",
+    "./tests/sandboxApp.ts",
+    "./tests/type-utils.ts",
+    "./tests/three-nebula-tests.ts"
+  ]
+}
