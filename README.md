@@ -37,7 +37,7 @@ This package is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contributing
 
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the GitHub repository: [three-nebula-types](https://github.com/your-username/three-nebula-types).
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the GitHub repository: [three-nebula-types](https://github.com/moonraker22/three-nebula-types).
 
 ## Credits
 
