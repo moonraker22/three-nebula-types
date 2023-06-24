@@ -14,6 +14,8 @@ npm install three-nebula-types
 
 ## Usage
 
+#### Easiest use is to copy or cut the file three-nebula-types from node-modules/three-nebula-types to node-modules/@types/three-nebula-types and rename to three-nebula or alternatively change the typeroots of your tsconfig to recognize three-nebula-types
+
 To use the TypeScript definitions for the `three-nebula` npm module, simply import the types into your TypeScript file:
 
 ```typescript
@@ -57,5 +59,5 @@ Your support is greatly appreciated!
 
 ## Changelog
 
-- **0.0.1** (2023-06-16)
-  - Initial release.
+- **0.0.1** (2023-6-16)
+  - Initial alpha release.
